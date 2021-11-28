@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Medical Centers</title>
+</head>
+<body>
+    <div class="container">
+        <span class="nav">MEDICAL HELP CENTERS</span>   
+       <div class="wrapper">
+        <div class="leftInputs">
+            <form class="form">
+                <span>Patient's information</span>
+                <label for="weight">weight</label>
+                <input class="weight" type="number"  name="weight" >
+                <label for="height">height</label>
+                <input class="height" type="" name="height" >
+                <!-- <label for="age">Age</label>
+                <input type="number" id="age" placeholder="Age"  min="0" max="120">
+                <label for="services">Services</label>
+                <input type="text" id="services" placeholder=""> -->
+                <button type="submit" id="btnSubmit">Submit</button>
+            </form>
+            <div class="box"></div>
+        </div>
+        <div class="rightHeader">
+            <span class="textHeader">Every</span>
+            <span class="textHeader">Information</span>
+            <span class="textHeader">Nurses</span>
+            <span class="textHeader">Needs</span>
+        </div>
+       </div>
+    </div>
+    <form class="val" action="">
+        <label for="uzs">UZS miqdorini kiriting</label>
+        <input class="uzs" name="uzs" type="number" min="">
+        <select class="money" name="valuta" id="valuta">
+            <option value="usd">USD</option>
+            <option value="euro">EURO</option>
+            <option value="funt">FUNT</option> 
+        </select>
+        <button class="btn-btn" type="submit">Submit</button>
+        <div class="output"></div>
+    </form>
+    <form class="fizbaz">
+        <input class="inNumber" type="number" min="0">
+        <button type="submit">Submit</button>
+        <div class="answer"></div>
+    </form>
+    <script src="app.js"></script>
+</body>
+</html>
